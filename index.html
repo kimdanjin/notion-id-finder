@@ -57,7 +57,7 @@
             dbList.innerHTML = '';
 
             try {
-                const response = await fetch('notion_proxy.php', {
+                const response = await fetch('https://zzss1004.dothome.co.kr/api/notion_proxy.php', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ apiKey: apiKey })
